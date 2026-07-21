@@ -1,0 +1,77 @@
+/* estilos-legal-privacidad.css */
+:root {
+  --accent: #d76a2e;
+  --text: #2f2f2f;
+  --muted: #4a4a4a;
+  --bg: #f9f7f1;
+  --radius: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.site-header {
+  background: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-links .brand {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.page {
+  max-width: 900px;
+  margin: 2rem auto 4rem;
+  padding: 0 1rem;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+ul {
+  margin-left: 1.5rem;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+ul li {
+  margin-bottom: 0.75rem;
+}
+
+footer.footer {
+  background: #fff;
+  border-top: 1px solid #ddd;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+footer.footer nav a {
+  color: var(--accent);
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: 600;
+}
+
+footer.footer nav a:hover {
+  text-decoration: underline;
+}
